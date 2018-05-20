@@ -28,5 +28,4 @@ assert.strictEqual(answer, null, 'Arrays Should Not Be Permitted');
 answer = basicMath.add({});
 assert.strictEqual(answer, null, 'Objects Should Not Be Permitted');
 
-// answer = basicMath.add('John');
-// assert.strictEqual(answer, 'Hello, John', `Output string does not match required (actual: "${answer}", expected: "Hello, John")`);
+
