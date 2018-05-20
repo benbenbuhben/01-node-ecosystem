@@ -1,0 +1,19 @@
+{
+  "name": "lab-ben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./__test__/lib/greet.test.js ./__test__/lib/arithmetic.test.js",
+    "lint": "eslint **/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
+}
